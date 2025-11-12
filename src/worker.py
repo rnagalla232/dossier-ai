@@ -25,10 +25,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SNOWFLAKE_API_KEY"] = "eyJraWQiOiIxOTE1NjU4NjUwOSIsImFsZyI6IkVTMjU2In0.eyJwIjoiNzQ4MzAzNDA6NzQ4MzAzNDAiLCJpc3MiOiJTRjozMDAxIiwiZXhwIjoxNzYzMTYxMjk1fQ.x-pDBMNPyif_GokNywuAeApY_DIzBo3VzASxBRRWoj9OsXpfLEXsSvtc4kYtOI3_jDPANTwPNBP8Y9KCBKi6Mw"
-
-
 class DocumentWorker:    
     def __init__(self):
         self.document_service = DocumentService()
