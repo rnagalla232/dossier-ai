@@ -1,4 +1,4 @@
-# Web Content Intelligence API
+# Dossier Knowledge API
 
 A FastAPI-based backend service for intelligent web content crawling, indexing, and retrieval with AI-powered summarization using Snowflake Cortex and OpenAI.
 

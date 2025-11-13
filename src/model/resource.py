@@ -27,14 +27,6 @@ class QueryResource(BaseModel):
     query: str
     ChatMessageHistory: dict
 
-# class ChatMessage(BaseModel):
-#     role: str
-#     content: str
-
-# class ChatMessageHistory(BaseModel):
-#     messages: List[ChatMessage]
-
-
 class Document(BaseModel):
     """Document model representing a web URL"""
     model_config = ConfigDict(
